@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Outfit;
+  scroll-behavior: smooth;
+  scroll-margin-top: 100px;
+
+  ::-webkit-scrollbar {
+    @apply hidden;
+  }
+
+  .button {
+    background: linear-gradient(104.42deg, #4745d0, #2a27c9);
+  }
+
+  #hero {
+    background-image: url("assets/herobg.png");
+  }
+
+  .card {
+    background:
+      linear-gradient(188.08deg,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0) 93.79%);
+  }
+}
