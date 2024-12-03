@@ -14,7 +14,7 @@ import Like from "./like.png";
 import Unlike from "./unlike.png";
 import Search from "./Search.png";
 import TimerIcon from "./TimerIcon.png";
-import Overline from "./overline.png";
+import Overline from "./Overline.png";
 import Overline2 from "./Overline2.png";
 import Discovery1 from "./discovery1.png";
 import Discovery2 from "./discovery2.png";
