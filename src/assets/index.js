@@ -42,10 +42,14 @@ import Graphy from "./graphy.png";
 import Profile from "./profile.jpg";
 import Copy from "./fi-rr-copy-alt.png";
 import Share from "./fi-rr-share.png";
+import Bars from "./bars-solid.svg";
+import Close from "./circle-xmark-regular.svg";
 
 export const assests = {
   Graphy,
   Copy,
+  Bars,
+  Close,
   Share,
   Details,
   Logo,

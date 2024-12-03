@@ -4,7 +4,7 @@ import { assests } from  "../assets";
 const Footer = () => {
   return (
     <footer className="px-20 py-10">
-      <div className=" flex items-start justify-between">
+      <div className=" flex flex-col sm:flex-row items-start justify-between">
         <div className="w-full md:w-1/3">
           <div className=" flex items-center gap-4 mb-10">
             <img src={assests.Logo} alt="logo" className="w-10" />

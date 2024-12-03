@@ -4,9 +4,9 @@ import { assests, pa } from "../assets";
 const ProductPage = () => {
   const naviagte = useNavigate();
   return (
-    <section className="px-20 py-10">
-      <div className="rounded-lg relative gap-1 w-4/5 mx-auto shadow-md border-[0.1px] shadow-[#06087a] flex items-center px-5 py-7">
-        <div className="h-[75vh] w-1/2 border rounded-md overflow-hidden ">
+    <section className="sm:px-20 px-5 sm:py-10">
+      <div className="rounded-lg relative gap-1 sm:w-4/5 w-full mx-auto shadow-md border-[0.1px] shadow-[#06087a] flex flex-col sm:flex-row items-center md:px-5 py-7">
+        <div className="sm:h-[75vh] sm:w-1/2 p-4  rounded-md overflow-hidden ">
           <img
             src={assests.Details}
             alt=""
@@ -14,7 +14,7 @@ const ProductPage = () => {
           />
         </div>
         {/* profile deatils of nft  */}
-        <div className=" w-5/6 px-10 flex flex-col gap-3">
+        <div className=" sm:w-5/6 px-10 flex flex-col gap-3">
           <h2 className="text-4xl capitalize leading-snug  ">
             {" "}
             Reprehenderit distinctio architecto assumenda .
@@ -53,7 +53,7 @@ const ProductPage = () => {
               </div>
             </div>
           </div>
-          <div className="flex shadow-md mb-3 shadow-slate-700 w-4/5 mx-auto flex-col  gap-3  items-center  px-2 py-3">
+          <div className="flex shadow-md mb-3 shadow-slate-700 sm:w-4/5 mx-auto flex-col  gap-3  items-center  px-2 py-3">
             <div className=" flex items-center justify-between gap-20">
               <div className="flex flex-col items-start ">
                 <span className="text-left  text-sm text-[#7780A1] capitalize ">
@@ -86,7 +86,7 @@ const ProductPage = () => {
           <img src={assests.Graphy} alt="" />
         </div>
         <div
-          className="flex relative -top-32 -right-[49px] z-30 flex-col gap-5
+          className="flex sm:relative sm:-top-32 sm:-right-[49px] z-30 sm:flex-col mt-10 gap-5
         "
         >
           <div className="w-20 h-20 p-5 border rounded-full bg-[#060714]">
