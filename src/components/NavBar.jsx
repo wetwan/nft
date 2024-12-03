@@ -32,7 +32,7 @@ const NavBar = () => {
         </div>
         <img
           src={assests.Bars}
-          className="w-10"
+          className="w-10 sm:hidden"
           onClick={() => setOpen(true)}
           alt=""
         />
