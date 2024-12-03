@@ -1,6 +1,6 @@
 import Logo from "./logo.png";
 import Herobg from "./herobg.png";
-import Nike from "./nike.png";
+import Nike from "./Nike.png";
 import Vector from "./vector.png";
 import RitterSport from "./RitterSport.png";
 import Adidas from "./Adidas.png";
